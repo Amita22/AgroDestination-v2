@@ -15,8 +15,7 @@ const mongoose = require('mongoose');
 
 //mongoose.connect('mongodb+srv://amita:5SxAq8ihvbuN0WIv@cluster1-dm6iy.mongodb.net/test?retryWrites=true/E-commerce');
 //mongoose.connect('mongodb://localhost/E-commerce');
-mongoose.connect('mongodb+srv://amita:5SxAq8ihvbuN0WIv@cluster1-dm6iy.mongodb.net/agrov2?retryWrites=true/agro');
-
+mongoose.connect('mongodb+srv://amita:5SxAq8ihvbuN0WIv@cluster1.dm6iy.mongodb.net/myFirstDatabase?retryWrites=true/agro', { useNewUrlParser: true });
 
 
 router.post('/signup', (req, res, next) => {
