@@ -1,5 +1,5 @@
 import { HttpInterceptor, HttpRequest, HttpHandler } from '@angular/common/http';
-import { LoginService } from '../Services/login.service';
+import { LoginService } from '../services/login.service';
 import {Injectable} from '@angular/core'
 
 
