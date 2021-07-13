@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { CropService } from '../Services/crop.service';
+import { CropService } from '../services/crop.service';
 import { Crop } from '../model/cropModel'
 import { Subscription} from 'rxjs'
 import { Router } from "@angular/router";

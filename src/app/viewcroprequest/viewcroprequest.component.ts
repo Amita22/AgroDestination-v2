@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { SellcropsService } from '../Services/sellcrops.service';
+import { SellcropsService } from '../services/sellcrops.service';
 import { Scrop } from '../model/sellModel'
 import { Subscription} from 'rxjs'
 import { Router } from '@angular/router';

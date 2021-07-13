@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormControl, Validators } from "@angular/forms";
 import { ActivatedRoute, ParamMap } from "@angular/router";
-import { CropService } from '../Services/crop.service'
+import { CropService } from '../services/crop.service'
 import { Crop } from '../model/cropModel'
 
 

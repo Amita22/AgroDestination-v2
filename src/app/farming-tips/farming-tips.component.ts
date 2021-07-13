@@ -3,7 +3,7 @@ import { FormGroup, FormControl, Validators } from "@angular/forms";
 import { ActivatedRoute, ParamMap } from "@angular/router";
 import { Router } from '@angular/router';
 
-import { TipsService } from '../Services/tips.service'
+import { TipsService } from '../services/tips.service'
 import { Tip }  from '../model/tipsModel'
 
 @Component({

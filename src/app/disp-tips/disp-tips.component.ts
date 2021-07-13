@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { TipsService} from '../Services/tips.service';
+import { TipsService} from '../services/tips.service';
 import {Tip} from '../model/tipsModel'
 import { Subscription} from 'rxjs'
 import { Router } from "@angular/router";
